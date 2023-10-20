@@ -1,6 +1,7 @@
 import java.util.concurrent.Callable;
 
 public class StringMultiplicationSum implements Callable<Integer> {
+
     private int matrix[][];
     private int stringMultiplicationSum = 0;
     private int item = 1;

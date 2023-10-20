@@ -3,6 +3,7 @@ import java.util.concurrent.Callable;
 import java.util.stream.Stream;
 
 public class ColumnMultiplicationSum implements Callable<Integer> {
+
     private int matrix[][];
     private int columnMultiplicationSum = 0;
     private int item = 1;
